@@ -1,0 +1,58 @@
+p{
+    color: brown;
+}
+
+
+h1{
+
+    color: darkgreen;
+}
+
+
+
+
+form{
+    margin: 0 auto; /* "margin" nos permite realizar sangrias en lo ancho y alto */
+    width: 400px; /* "width" rea */
+    padding: 1em;
+    border: 2px solid #B1A2CA; /* "Border" Nos permite realizar un borde al texto*/
+    border-radius: 16px;
+    
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+form li+li{
+    /* Con esto realizamos la separacion que existe entre los elementos de nuestra lista */
+    margin-top: 1em;
+}
+
+label{
+/* "display" Nos ayuda para que el tamaño de alineacion  */
+    display: inline-block;
+    width: 90px;
+    color: red; 
+    text-align: right;
+}
+
+input:focus{
+
+border-color: black;
+
+}
+
+/* "text area" permite tener mas uso de input con un mayor rango */
+
+textarea{
+    vertical-align: top;
+    height: 90px;
+    width: 200px;
+}
+
+button{
+    margin-left: 120px;
+}
